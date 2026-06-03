@@ -203,7 +203,7 @@ github-profile-analyzer/
 
 ## Deployment Notes (Railway / Render / Fly.io)
 
-1. Set all env vars from `.env.example` in your platform's dashboard.
+1. Set all env vars in your Backend.
 2. Use the platform's managed MySQL add-on (Railway / PlanetScale / Clever Cloud).
 3. Set `PORT` to whatever the platform injects (most inject it automatically).
 4. The app auto-creates tables on boot — no migration step needed.
