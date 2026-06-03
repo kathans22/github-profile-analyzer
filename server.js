@@ -18,6 +18,7 @@ async function bootstrap() {
     });
   } catch (err) {
     console.error("❌ Failed to start server:", err.message);
+    console.error("Full error:", err);
     process.exit(1);
   }
 }
